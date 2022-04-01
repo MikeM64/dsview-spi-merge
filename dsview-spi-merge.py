@@ -3,6 +3,7 @@
 #
 # DSView SPI Transfer Merge Utility
 # (c) MikeM64 - 2022
+# SPDX-License-Identifier: MIT
 #
 
 #
