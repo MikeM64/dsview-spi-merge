@@ -69,6 +69,7 @@ def merge_files(mosi_file, miso_file, output_file):
         output_file_f.write('# MOSI File:' + mosi_file + '\n')
         output_file_f.write('# MISO File:' + miso_file + '\n')
         output_file_f.write('\n')
+        output_file_f.write('---ID--- - Dir  - --------Timestamp (ns)--------  - --Data--\n\n')
 
         while miso_line and mosi_line:
             mosi_transfer = parse_spi_transfer_line(mosi_line)
